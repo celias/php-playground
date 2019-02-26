@@ -28,8 +28,7 @@
     // echo strtoupper($phrase);  
   ?>
 
-  
-    <form action="site.php" method="get">
+ <form action="site.php" method="get">
     Name: <input type="text" name="name"><br>
     Favorite Food: <input type="text" name="favfood"><br>
     <input type="submit">
@@ -37,7 +36,6 @@
     <br>
     Welcome, <?php echo $_GET["name"]; ?>!
     <br>
-    Your favorite food is <?php echo $_GET["favfood"]; ?>.
-  
+    Your favorite food is <?php echo $_GET["favfood"]; ?>. 
 </body>
 </html>
